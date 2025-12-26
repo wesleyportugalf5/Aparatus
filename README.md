@@ -1,10 +1,6 @@
 # Aparatus - Sistema de Agendamento Fullstack
 
-![Capa do Projeto](https://raw.githubusercontent.com/felipemotarocha/fullstackweekend-aparatus-v2/main/public/og-image.png)
-
-> **Status do Projeto:** Concluído
-
-Aparatus é uma plataforma moderna de agendamento de serviços (Barbearias), desenvolvida durante o evento **Full Stack Weekend**. O foco do projeto foi construir uma aplicação escalável, com experiência de usuário fluida e integração de pagamentos reais.
+Aparatus é uma plataforma moderna de agendamento de serviços (Barbearias). O foco do projeto foi construir uma aplicação escalável, com experiência de usuário fluida e integração de pagamentos reais.
 
 ## Sobre o Projeto
 
