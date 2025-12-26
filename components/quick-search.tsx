@@ -16,12 +16,17 @@ const QuickSearch = () => {
   const handleSearch = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!searchValue.trim()) return;
-    router.push(`/barbershops?search=${encodeURIComponent(searchValue.trim())}`);
+    router.push(
+      `/barbershops?search=${encodeURIComponent(searchValue.trim())}`,
+    );
   };
 
   return (
     <>
-      <form onSubmit={handleSearch} className="flex items-center gap-2">
+      <form
+        onSubmit={handleSearch}
+        className="flex items-center justify-center gap-2"
+      >
         <Input
           className="border-border rounded-full"
           placeholder="Pesquisar"

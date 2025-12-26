@@ -7,17 +7,19 @@ import MenuSheet from "./menu-sheet";
 
 const Header = () => {
   return (
-    <header className="bg-background flex items-center justify-between px-5 py-6">
-      <Link href="/">
-        <Image src="/logo.svg" alt="Aparatus" width={91} height={24} />
-      </Link>
-      <div className="flex items-center gap-2">
-        <Link href="/chat">
-          <Button variant="outline" size="icon">
-            <BotMessageSquare className="size-5" />
-          </Button>
+    <header className="bg-background">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-6">
+        <Link href="/">
+          <Image src="/logo.svg" alt="Aparatus" width={91} height={24} />
         </Link>
-        <MenuSheet />
+        <div className="flex items-center gap-2">
+          <Link href="/chat">
+            <Button variant="outline" size="icon">
+              <BotMessageSquare className="size-5" />
+            </Button>
+          </Link>
+          <MenuSheet />
+        </div>
       </div>
     </header>
   );
