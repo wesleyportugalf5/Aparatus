@@ -2,6 +2,8 @@
 
 Aparatus é uma plataforma moderna de agendamento de serviços (Barbearias). O foco do projeto foi construir uma aplicação escalável, com experiência de usuário fluida e integração de pagamentos reais.
 
+Link: https://aparatus-woad.vercel.app/
+
 ## Sobre o Projeto
 
 O Aparatus resolve o problema de agendamentos manuais, permitindo que clientes visualizem horários disponíveis em tempo real, realizem reservas e efetuem o pagamento via cartão de crédito ou Pix, tudo em uma única interface.
@@ -71,9 +73,3 @@ Neste projeto, apliquei conceitos avançados de desenvolvimento:
 - Tipagem Estrita: Uso de TypeScript em todo o projeto para evitar erros em tempo de execução.
 
 - UI/UX: Foco em estados de carregamento (skeletons) e feedback visual imediato para o usuário.
-
-Deploy do Projeto:
-
-Meu Portfólio:
-
-Linkedin: www.linkedin.com/in/wesleyportugal
